@@ -19,6 +19,10 @@ module.exports = {
         'bg-element': '#1f3a56',
         'card': '#17223f',
         'disabled': '#4a6682',
+      },
+      boxShadow: {
+        'start': 'inset 0 0 0 0 #44fee0',
+        'finish': 'inset 207px 0 0 0 #44fee0',
       }
     }
   },
