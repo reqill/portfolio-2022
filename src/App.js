@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full flex">
+
+      <main className="w-11/12 mx-auto">
+        <div>
+          <h6 className="text-accent font-mono -tracking-[.075em] text-[.9rem] -mb-[.1rem]">
+            Hi, my name is
+          </h6>
+          <h1 className="text-header font-sans text-[2.1rem] font-bold tracking-wide leading-10">
+            Mikołaj Mrózek.
+          </h1>
+          <h1 className="text-text font-sans text-[2.1rem] font-bold tracking-wide leading-10">
+            I build things for web.
+          </h1>
+          <h4 className="text-text font-sans font-normal mt-3 leading-5">
+            I'm a self-taught front-end developer specializing in building and designing exeptional digital products.
+          </h4>
+        </div>
+      </main>
     </div>
+
+
   );
 }
 
