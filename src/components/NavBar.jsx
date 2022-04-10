@@ -5,12 +5,56 @@ export default function NavBar({
     mobile,
     visibleNav,
     isNavbarOpen,
-    _generateMobileNavLinks,
     lang,
     setLang,
     setNavbarOpen,
-    _generateDesktopNavLinks
 }) {
+
+    const PATHS = {
+        en: [
+            "home",
+            "about",
+            "work",
+            "contact"
+        ],
+        pl: [
+            "główna",
+            "o mnie",
+            "prace",
+            "kontakt"
+        ]
+    }
+
+    const _generateMobileNavLinks = (language) => {
+        return PATHS[language].map((el, idx) =>
+            <li className="mx-auto" key={el + String(idx)}>
+                <a href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
+                    className="font-mono text-text hover:text-header flex flex-col w-fit tracking-tight text-lg p-3 font-normal"
+                >
+                    <span className="select-none mx-auto text-accent -mb-2">
+                        {`0${idx}`}
+                    </span>
+                    {el}
+                </a>
+            </li>
+        )
+    }
+
+    const _generateDesktopNavLinks = (language) => {
+        return PATHS[language].map((el, idx) =>
+            <li className="mx-auto px-4" key={el + String(idx)}>
+                <a href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
+                    className="font-mono text-text capitalize hover:text-header flex flex-row w-fit -tracking-[.05rem] text-[.95rem] p-1 font-normal transition-colors duration-150"
+                >
+                    <span className="select-none mx-auto text-accent pr-[.35rem]">
+                        {`0${idx}.`}
+                    </span>
+                    {el}
+                </a>
+            </li>
+        )
+    }
+
     return <div className={`fixed top-0 inline-flex justify-center ease-in-out w-full mx-auto align-middle transition-transform duration-300 pb-1 ${!mobile ? "pt-1 pb-2" : null} ${visibleNav ? "translate-y-0 bg-bg/70  backdrop-blur-lg" : "-translate-y-full bg-bg backdrop-blur-none"}`}>
         <div className="inline-flex justify-between m-auto align-middle w-full md:w-[95%]">
             <a className="w-16 my-auto ml-[.35rem]" href="/">
