@@ -1,6 +1,7 @@
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Work from './components/Work'
 import FooterMobile from './components/FooterMobile';
 import FooterDesktop from './components/FooterDesktop';
 import SocialLinksRight from './components/SocialLinksRight';
@@ -75,7 +76,7 @@ const App = () => {
         <Section id="about" number="01" header="About" subheader="who is this guy?" />
         <About require={require} />
         <Section id="work" number="02" header="Work" subheader="my featured projects." />
-        <div className="h-screen" />
+        <Work />
         <Section id="contact" number="03" header="Contact" subheader="let's get in touch!" />
         <Contact />
 

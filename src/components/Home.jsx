@@ -1,7 +1,7 @@
 import React from "react";
 export default function Home({ }) {
     return <div className="h-screen w-full flex flex-col align-middle justify-center">
-        <h6 className="text-accent font-mono -tracking-[.075em] text-[.9rem] -mb-[.1rem] sm:text-base sm:mb-0 md:text-[1.05rem] lg:text-[1.1rem] xl:text-[1.15rem]">
+        <h6 className="text-accent font-mono lg:ml-[.3rem] -tracking-[.075em] text-[.9rem] -mb-[.1rem] sm:text-base sm:mb-0 md:text-[1.05rem] lg:text-[1.1rem] xl:text-[1.15rem]">
             Hi, my name is
         </h6>
         <h1 className="text-header font-sans text-[2.1rem] font-bold tracking-wide leading-10 sm:text-5xl sm:leading-[3rem] md:text-6xl md:leading-[3.6rem] lg:text-[4rem] lg:leading-[4rem] xl:text-7xl xl:leading-[4.4rem]">

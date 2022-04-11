@@ -2,15 +2,11 @@ import React from "react";
 
 const TECHNOLOGIES = [
   "React",
-  "ReactNative",
   "Tailwind",
   "npm",
   "Git",
-  "HTML5",
-  "CSS3",
+  "JavaScript (ES6)",
   "Sass",
-  "TypeScript",
-  "JavaScript (ES6)"
 ]
 
 export default function About({ }) {
@@ -47,7 +43,7 @@ export default function About({ }) {
         </div>
       </div>
       <div className='w-full'>
-        <p className="text-text mt-5 lg:mt-5 mb-2 lg:mb-3 xl:mt-0 font-sans md:text-[1.25rem] font-light text-[1.1rem] leading-[1.6rem]">Technologies I've been working with recently:</p>
+        <p className="text-text mt-5 lg:mt-5 mb-2 lg:mb-3 xl:mt-5 font-sans md:text-[1.25rem] font-light text-[1.1rem] leading-[1.6rem]">Technologies I've been working with recently:</p>
         <div className="flex gap-[.35rem] flex-wrap xl:max-w-xl">
           {_generateTech()}
         </div>
