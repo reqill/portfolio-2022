@@ -12,6 +12,7 @@
     "react-device-detect": "^2.1.2",
     "react-dom": "^18.0.0",
     "react-feather": "^2.0.9",
+    "react-reveal": "^1.2.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.3",
