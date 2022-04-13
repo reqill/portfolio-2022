@@ -2,9 +2,9 @@ import react from 'react';
 
 const Section = ({ id, number, header, subheader }) => {
     return (
-        <section id={id} className="pt-12 mt-24 pb-3">
+        <section id={id} className="pt-12 lg:pt-20 lg:mt-28 mt-24 pb-3">
             <div className="inline-flex w-full sm:w-fit">
-                <p className="font-mono font-normal text-accent text-6xl -tracking-[.3rem] mr-2 md:text-[4.15rem] lg:text-[4.5rem] xl:text-[5.25rem]">
+                <p className="font-mono font-normal text-accent text-6xl -tracking-[.3rem] lg:-tracking-[.5rem] mr-2 lg:mr-3 md:text-[4.15rem] lg:text-[4.5rem] xl:text-[5.25rem]">
                     {number}
                 </p>
                 <div className="w-full mt-[.125rem] xl:mt-[.3rem]">
