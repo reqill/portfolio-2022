@@ -79,14 +79,10 @@ const App = () => {
         <Fade bottom delay={300} distance="4rem">
           <Section id="about" number="01" header="About" subheader="who is this guy?" />
         </Fade>
-        <Fade bottom delay={500} distance="4rem">
-          <About />
-        </Fade>
+        <About />
         <Fade bottom delay={300} distance="4rem">
           <Section id="work" number="02" header="Work" subheader="my featured projects." />
         </Fade>
-
-
         <Work />
         <Fade bottom delay={300} distance="4rem">
           <Section id="contact" number="03" header="Contact" subheader="let's get in touch!" />
