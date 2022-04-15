@@ -9,7 +9,7 @@ const Section = ({ id, number, header, subheader }) => {
                 </p>
                 <div className="w-full mt-[.125rem] xl:mt-[.3rem]">
                     <div className="inline-flex align-bottom w-full">
-                        <p className="font-sans text-header mb-auto text-[1.3rem] md:text-[1.5rem] lg:md:text-[1.65rem] xl:text-[1.85rem]">
+                        <p className="whitespace-nowrap font-sans text-header mb-auto text-[1.3rem] md:text-[1.5rem] lg:md:text-[1.65rem] xl:text-[1.85rem]">
                             {header}
                         </p>
                         <div className="bg-text w-full h-[.01rem] mt-auto mb-[.7rem] ml-2 sm:w-48 md:mb-[.825rem] lg:ml-3 lg:w-56 xl:w-72 xl:mb-[1.05rem]" />

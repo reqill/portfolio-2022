@@ -19,10 +19,10 @@ export default function NavBar({
             "contact"
         ],
         pl: [
-            "główna",
-            "o mnie",
-            "prace",
-            "kontakt"
+            "Główna",
+            "O mnie",
+            "Prace",
+            "Kontakt"
         ]
     }
 
@@ -48,7 +48,7 @@ export default function NavBar({
             <Fade top delay={(80 * (idx + 1))}>
                 <li className="mx-auto px-4" key={el + String(idx)}>
                     <a href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
-                        className="font-mono text-text capitalize hover:text-header flex flex-row w-fit -tracking-[.05rem] text-[.95rem] p-1 font-normal transition-colors duration-150"
+                        className={`font-mono text-text ${lang === "en" ? "capitalize" : ""} hover:text-header flex flex-row w-fit -tracking-[.05rem] text-[.95rem] p-1 font-normal transition-colors duration-150`}
                     >
                         <span className="select-none mx-auto text-accent pr-[.35rem]">
                             {`0${idx}.`}
