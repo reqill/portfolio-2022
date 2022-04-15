@@ -70,9 +70,7 @@ const App = () => {
       <NavBar mobile={mobile} visibleNav={visibleNav} isNavbarOpen={isNavbarOpen} lang={lang} setLang={setLang} setNavbarOpen={setNavbarOpen} />
       {
         !mobile &&
-        <Fade delay={1000}>
-          <SocialLinksRight />
-        </Fade>
+        <SocialLinksRight />
 
       }
 
