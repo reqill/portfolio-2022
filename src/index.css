@@ -10,7 +10,7 @@ html {
 }
 
 .dots-on-repeat {
-    background-image: radial-gradient(#18334F 25%, transparent 25%);
+    background-image: radial-gradient(#1b2646 25%, transparent 25%);
     background-position: 0 0, 10px 10px;
     background-size: 15px 15px;
 }
