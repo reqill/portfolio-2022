@@ -22,8 +22,8 @@ module.exports = {
       },
       boxShadow: {
         'start': 'inset 0 0 0 0.1px #45FCDE',
-        'finish': 'inset 350px 0 0 0.1px #45FCDE',
-        'finish2': 'inset 235px 0 0 0.1px #45FCDE',
+        'finish': 'inset 360px 0 0 0.1px #45FCDE',
+        'finish2': 'inset 250px 0 0 0.1px #45FCDE',
         '3xl': '0 20px 25px rgba(0, 0, 0, 0.125)',
       },
       screens: {
