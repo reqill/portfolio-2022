@@ -75,13 +75,13 @@ export default function About({ }) {
     <article className="w-full mt-4">
       <div className='w-full flex flex-col-reverse lg:justify-start lg:flex-row'>
         <div className='mx-auto sm:mx-0 w-11/12'>
-          <p className="w-full text-text font-sans font-light text-[1.1rem] mt-2 leading-[1.6rem]">
+          <p className="w-full text-text text-justify font-sans font-light text-[1.1rem] mt-2 leading-[1.6rem]">
             Hello! My name is Mikołaj and I love designing and building websites using modern technologies. My interest in coding dates back to 2014 when I started programming microcontrollers in C. Then in 2019 I have begun my adventure with plain HTML, CSS and JavaScript that have helped me with creating my first more complex website.
           </p>
-          <p className="w-full text-text mt-5 font-sans font-light text-[1.1rem] leading-[1.6rem]">
+          <p className="w-full text-text mt-5 text-justify  font-sans font-light text-[1.1rem] leading-[1.6rem]">
             Fast-forward to today, I've learned how to use tools that speed up my workflow and have gained experiance through many projects. Nevertheless I'm not limiting myself and I'm always looking forward to learn new ways to solve problems I encounter.
           </p>
-          <p className="w-full text-text mt-5 font-sans font-light text-[1.1rem] leading-[1.6rem]">
+          <p className="w-full text-text mt-5 text-justify  font-sans font-light text-[1.1rem] leading-[1.6rem]">
             These days my main focus is building accessible and interesting digital experience by making it with special attention to details.
           </p>
         </div>
