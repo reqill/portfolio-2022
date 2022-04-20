@@ -21,6 +21,8 @@ const App = () => {
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visibleNav, setVisibleNav] = useState(true);
+  const queryParams = new URLSearchParams(window.location.search);
+  const langParams = queryParams.get('lang');
 
   //check width of viewport
   function handleWindowSizeChange() {
@@ -32,6 +34,15 @@ const App = () => {
       window.removeEventListener('resize', handleWindowSizeChange);
     }
   }, []);
+
+  useEffect(() => {
+    if (langParams === "en" && lang === "pl") {
+      setLang("en")
+    } else if (lang !== "pl") {
+      window.history.pushState({}, "", "/");
+      setLang("pl")
+    }
+  }, [])
 
   const _handleScroll = () => {
     const currentScrollPos = window.pageYOffset;

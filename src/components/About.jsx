@@ -32,7 +32,7 @@ export default function About({ lang }) {
           <div className='mx-auto sm:mx-0 w-11/12'>
             <p className="w-full text-text text-justify font-sans font-light text-[1.1rem] mt-2 leading-[1.6rem]">
               {
-                lang == "en" ?
+                lang === "en" ?
                   "Hello! My name is Mikołaj and I love designing and building websites using modern technologies. My interest in coding dates back to 2015 when I started programming microcontrollers in C. Then in 2019 I have begun my adventure with plain HTML, CSS and JavaScript that have helped me with creating my first more complex website." :
                   "Cześć! Nazywam się Mikołaj i uwielbiam projektować oraz budować strony internetowe używając nowoczesnych technologii. Moje zainteresowanie kodowaniem sięga roku 2015 w którym zacząłem programować mikrokontrolery w języku C. Później w 2019 rozpocząłem moją przygodę z czystym HTML-em, CSS-em i JS-em które pomogły mi w stworzeniu mojej pierwszej bardziej zaawansowanej strony."
               }
@@ -56,7 +56,7 @@ export default function About({ lang }) {
               <div className="w-fit  h-fit relative -translate-x-3 lg:translate-x-6 lg:-translate-y-8">
                 <div className='inset w-full h-full absolute translate-x-8 translate-y-8 dots-on-repeat ' />
                 <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg ' />
-                <img src={require("../media/Mask Group 2.png")} className="object-cover aspect-square w-52 lg:w-64 xl:w-72 lg:my-0 mix-blend-luminosity mx-auto rounded-[.35rem]" />
+                <img alt={lang === "en" ? "photo of me ;)" : "moja fotografia ;o"} src={require("../media/Mask Group 2.png")} className="object-cover aspect-square w-52 lg:w-64 xl:w-72 lg:my-0 mix-blend-luminosity mx-auto rounded-[.35rem]" />
               </div>
             </div>
           </Fade>

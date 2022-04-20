@@ -73,11 +73,11 @@ export default function Work({ lang }) {
                   <div className='inset w-full h-full absolute -translate-x-8 translate-y-8 dots-on-repeat ' />
                   <div className="w-full h-fit relative">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl' />
-                    <img src={require("../media/Image 8.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "student council website screen shot 1" : "zrzut ekranu z strony samorządun uczniowskiego 1"} src={require("../media/Image 8.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                   <div className="w-full h-fit relative mt-4">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl' />
-                    <img src={require("../media/Image 9.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "student council website screen shot 1" : "zrzut ekranu z strony samorządun uczniowskiego 2"} src={require("../media/Image 9.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                 </div>
               </div>
@@ -131,10 +131,10 @@ export default function Work({ lang }) {
                 </div>
               </div>
               <div className="w-full inline-flex justify-end align-middle gap-[.6rem] mt-6">
-                <a href="https://suilo.pl/" target="_blank" title="Website" className="group my-auto">
+                <a rel="external" href="https://suilo.pl/" target="_blank" title="Website" className="group my-auto">
                   <ExternalLink size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
-                <a href="https://github.com/Reqill/suilo-website-v2" target="_blank" title="GitHub" className="group my-auto">
+                <a rel="external" href="https://github.com/Reqill/suilo-website-v2" target="_blank" title="GitHub" className="group my-auto">
                   <GitHub size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
 
@@ -154,11 +154,11 @@ export default function Work({ lang }) {
                   <div className='inset w-full h-full absolute -translate-x-8 lg:translate-x-8 translate-y-8 dots-on-repeat ' />
                   <div className="w-full h-fit relative">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl' />
-                    <img src={require("../media/Image 13.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "tchnienie app screen shot 1" : "zrzut ekranu z aplikacji tchnienie 1"} src={require("../media/Image 13.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                   <div className="w-full h-fit relative">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl ' />
-                    <img src={require("../media/Image 14.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "tchnienie app screen shot 2" : "zrzut ekranu z aplikacji tchnienie 2"} src={require("../media/Image 14.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                 </div>
               </div>
@@ -219,10 +219,10 @@ export default function Work({ lang }) {
                 </div>
               </div>
               <div className="w-full inline-flex flex-row lg:flex-row-reverse  justify-end  align-middle gap-[.65rem] mt-7">
-                <a href="https://xd.adobe.com/view/b51938f6-cb5d-444d-9367-b2e6fe4c101a-e04a/?fullscreen&hints=off" target="_blank" title="View prototype flow" className="group my-auto">
+                <a rel="external" href="https://xd.adobe.com/view/b51938f6-cb5d-444d-9367-b2e6fe4c101a-e04a/?fullscreen&hints=off" target="_blank" title="View prototype flow" className="group my-auto">
                   <Eye size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
-                <a href="https://github.com/Reqill/tchnienie-app" target="_blank" title="GitHub" className="group my-auto">
+                <a rel="external" href="https://github.com/Reqill/tchnienie-app" target="_blank" title="GitHub" className="group my-auto">
                   <GitHub size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
 
@@ -241,11 +241,11 @@ export default function Work({ lang }) {
                   <div className='inset w-full h-full absolute -translate-x-8 translate-y-8 dots-on-repeat ' />
                   <div className="w-full h-fit relative">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl' />
-                    <img src={require("../media/Image 10.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "portfolio website screen shot 1" : "zrzut ekranu z strony portfolio 1"} src={require("../media/Image 10.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                   <div className="w-full h-fit relative mt-4">
                     <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg shadow-3xl ' />
-                    <img src={require("../media/Image 11.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
+                    <img alt={lang === "en" ? "portfolio website screen shot 1" : "zrzut ekranu z strony portfolio 2"} src={require("../media/Image 11.png")} className="object-cover w-full lg:my-0 mix-blend-luminosity rounded-[.35rem]" />
                   </div>
                 </div>
               </div>
@@ -298,7 +298,7 @@ export default function Work({ lang }) {
                 </div>
               </div>
               <div className="w-full inline-flex justify-end align-middle gap-[.6rem] mt-6">
-                <a href="https://github.com/Reqill/portfolio-2022" target="_blank" title="GitHub" className="group my-auto">
+                <a rel="external" href="https://github.com/Reqill/portfolio-2022" target="_blank" title="GitHub" className="group my-auto">
                   <GitHub size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
 

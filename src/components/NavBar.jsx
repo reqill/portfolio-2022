@@ -30,7 +30,7 @@ export default function NavBar({
         return PATHS[language].map((el, idx) =>
 
             <li className="mx-auto" key={el + String(idx)}>
-                <a href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
+                <a rel="bookmark" href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
                     className="font-mono text-text hover:text-header flex flex-col w-fit tracking-tight text-lg p-3 font-normal"
                 >
                     <span className="select-none mx-auto text-accent -mb-2">
@@ -47,7 +47,7 @@ export default function NavBar({
         return PATHS[language].map((el, idx) =>
             <Fade top delay={(80 * (idx + 1))}>
                 <li className="mx-auto px-4" key={el + String(idx)}>
-                    <a href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
+                    <a rel="bookmark" href={`#${PATHS.en[idx]}`} onClick={() => setNavbarOpen(false)}
                         className={`font-mono text-text ${lang === "en" ? "capitalize" : ""} hover:text-header flex flex-row w-fit -tracking-[.05rem] text-[.95rem] p-1 font-normal transition-colors duration-150`}
                     >
                         <span className="select-none mx-auto text-accent pr-[.35rem]">
@@ -64,7 +64,7 @@ export default function NavBar({
     return <div className={`fixed top-0 z-50 inline-flex justify-center ease-in-out w-full mx-auto align-middle transition-transform duration-300 pb-1 ${!mobile ? "pt-1 pb-2" : null} ${(isNavbarOpen || visibleNav) ? "translate-y-0 bg-bg/70  backdrop-blur-lg" : "-translate-y-full bg-bg backdrop-blur-none"}`}>
         <div className="inline-flex justify-between m-auto align-middle w-full md:w-[95%]">
             <Fade duration={500}>
-                <a className="w-16 my-auto ml-[.35rem]" href="/">
+                <a rel="bookmark" className="w-16 my-auto ml-[.35rem]" href="/">
                     <svg version="1.1" id="Warstwa_1" x="0px" y="0px" viewBox="0 0 545.7 330" className="fill-header hover:fill-accent transition-all duration-150">
                         <polygon points="244.1,245.3 223.4,280.6 165.5,280.6 215.2,195.8" />
                         <polygon points="244.2,49.5 186.5,49.5 186.5,49.4 186.5,49.5 186.5,49.5 51,280.6 108.9,280.6 215.3,98.7 321.8,280.6 379.7,280.6" />
