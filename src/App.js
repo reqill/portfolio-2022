@@ -15,7 +15,7 @@ const MOBILE_BREAKPOINT = 690;
 
 const App = () => {
   const [isNavbarOpen, setNavbarOpen] = useState(false)
-  const [lang, setLang] = useState("en")
+  const [lang, setLang] = useState("pl")
   const [width, setWidth] = useState(Number(window.innerWidth));
   const [mobile, setMobile] = useState(false)
 
