@@ -66,14 +66,12 @@ const App = () => {
 
   return (
     <div className="w-full flex flex-col" id="home">
-
       <NavBar mobile={mobile} visibleNav={visibleNav} isNavbarOpen={isNavbarOpen} lang={lang} setLang={setLang} setNavbarOpen={setNavbarOpen} />
       {
         !mobile &&
         <SocialLinksRight lang={lang} />
 
       }
-
       <main className="w-11/12 sm:w-10/12 xl:w-9/12 mx-auto" onClick={() => _closeMenu()}>
         <Home lang={lang} />
         <Fade bottom delay={300} distance="4rem">
@@ -87,11 +85,7 @@ const App = () => {
         <Fade bottom delay={300} distance="4rem">
           <Section id="contact" number="03" header={lang === "en" ? "Contact" : "Kontakt"} subheader={lang === "en" ? "let's get in touch!" : "porozmawiajmy!"} />
         </Fade>
-
         <Contact lang={lang} />
-
-
-
       </main>
       {
         !mobile &&

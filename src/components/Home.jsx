@@ -5,7 +5,7 @@ const BASE_DELAY = 500
 
 export default function Home({ lang }) {
     return <div className="h-screen w-full flex flex-col align-middle justify-center">
-        <Fade delay={BASE_DELAY + 75 * 1} bottom distance="2rem">
+        <Fade delay={BASE_DELAY + 75 * 1} bottom distance="2rem" >
             <h6 className="text-accent font-mono lg:ml-[.3rem] -tracking-[.075em] text-[.9rem] -mb-[.1rem] sm:text-base sm:mb-0 md:text-[1.05rem] lg:text-[1.1rem] xl:text-[1.15rem]">
                 {
                     lang === "en" ?

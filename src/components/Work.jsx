@@ -53,7 +53,7 @@ export default function Work({ lang }) {
 
   const _generateTech = (data) => {
     return data?.map((el, idx) =>
-      <div key={el + idx} className="bg-card px-3 py-[.15rem] rounded-md">
+      <div key={el + idx} className="bg-card px-3 py-[.15rem] rounded-md hover:-translate-y-[.15rem] cursor-default transition-all duration-200 hover:shadow-md dura">
         <p className="font-mono text-text text-[.95rem] tracking-tight">
           {el}
         </p>
@@ -64,10 +64,10 @@ export default function Work({ lang }) {
 
   return (
     <div className="w-full justify-center flex flex-col">
-      <Fade bottom delay={400} distance="4rem">
+      <Fade bottom delay={300} distance="4rem">
         <article className="w-fit mx-auto mt-9 px-2 mb-24">
           <div className='w-full flex flex-col-reverse justify-center align-middle lg:justify-start lg:flex-row xl:justify-around'>
-            <Fade bottom delay={600} distance="4rem">
+            <Fade bottom delay={450} distance="4rem">
               <div className='flex flex-col mx-auto mt-5 lg:mt-4 w-64 sm:w-80 md:w-72 lg:w-64 xl:w-72 justify-center md:justify-start  relative mb-12 xl:mb-0 lg:mb-2 lg:-ml-10 xl:-ml-0'>
                 <div className="relative mx-auto mt-3 w-full lg:mt-8">
                   <div className='inset w-full h-full absolute -translate-x-8 translate-y-8 dots-on-repeat ' />
@@ -145,10 +145,10 @@ export default function Work({ lang }) {
       </Fade>
 
 
-      <Fade bottom delay={400} distance="4rem">
+      <Fade bottom delay={300} distance="4rem">
         <article className="w-fit mx-auto mt-12 px-2 mb-24">
           <div className='w-full flex flex-col-reverse justify-center align-middle lg:justify-start lg:flex-row-reverse xl:justify-around'>
-            <Fade bottom delay={600} distance="4rem">
+            <Fade bottom delay={450} distance="4rem">
               <div className='flex flex-col mx-auto mt-5 lg:mt-4 w-72 sm:w-[21rem] md:w-[19rem] lg:w-[17rem] xl:w-[19rem] justify-center md:justify-start  relative mb-12 xl:mb-0 lg:mb-2 lg:-ml-10 xl:-ml-0'>
                 <div className="relative mx-auto gap-3 inline-flex mt-3 w-full lg:mt-8">
                   <div className='inset w-full h-full absolute -translate-x-8 lg:translate-x-8 translate-y-8 dots-on-repeat ' />
@@ -232,10 +232,10 @@ export default function Work({ lang }) {
         </article>
       </Fade>
 
-      <Fade bottom delay={400} distance="4rem">
+      <Fade bottom delay={300} distance="4rem">
         <article className="w-fit mx-auto mt-12 px-2 mb-12">
           <div className='w-full flex flex-col-reverse justify-center align-middle lg:justify-start lg:flex-row xl:justify-around'>
-            <Fade bottom delay={600} distance="4rem">
+            <Fade bottom delay={450} distance="4rem">
               <div className='flex flex-col mx-auto mt-5 lg:mt-4 w-64 sm:w-80 md:w-72 lg:w-64 xl:w-72 justify-center md:justify-start  relative mb-12 xl:mb-0 lg:mb-2 lg:-ml-10 xl:-ml-0'>
                 <div className="relative mx-auto mt-3 w-full lg:mt-8">
                   <div className='inset w-full h-full absolute -translate-x-8 translate-y-8 dots-on-repeat ' />

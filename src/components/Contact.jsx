@@ -42,7 +42,7 @@ const Contact = ({ lang }) => {
               {
                 lang === "en" ?
                   `I'm open for new opportunities. So if you're interested in cooperation, have any other questions, or just wanted to say "hi" then feel free to contact me by email.` :
-                  `Jestem otwarty na na nowe możliwości. Więc jeżeli jesteś zainteresowany współpracą, masz inne pytania, lub po prostu chcesz napisać "cześć" to wiedz, że moja skrzynka jest zawsze otwarta.`
+                  `Jestem otwarty na wszelkie możliwości. Więc jeżeli jesteś zainteresowany współpracą, masz inne pytania, lub po prostu chcesz napisać "cześć" to wiedz, że moja skrzynka jest zawsze otwarta.`
               }
 
             </p>
@@ -54,11 +54,11 @@ const Contact = ({ lang }) => {
               }
             </a>
           </div>
-          <Fade bottom delay={500}>
+          <Fade bottom delay={400} distance="4rem">
             <div className="flex flex-row w-3/4 justify-center specific:flex-col specific:w-fit specific:h-fit specific:my-auto specific:pb-8 align-middle mx-auto my-6">
               <div className="bg-disabled w-full h-[.01rem] my-auto max-w-[10rem] specific:w-[.01rem] specific:h-9 specific:mx-auto" />
 
-              <p className="font-mono text-disabled text-2xl px-2 specific:pt-[.15rem] specific:pb-[.4rem]">
+              <p className="font-mono text-disabled text-2xl px-2 tracking-tighter specific:pt-[.15rem] specific:pb-[.4rem]">
                 {
                   lang === "en" ?
                     "or" :
@@ -71,7 +71,7 @@ const Contact = ({ lang }) => {
             </div>
           </Fade>
           <div className="flex flex-col w-fit mx-auto justify-center ">
-            <Fade bottom delay={500}>
+            <Fade bottom delay={600} distance="4rem">
               <form onSubmit={_submit} className="relative">
                 <div className={`bg-card mb-[.6rem] pt-[.35rem] pb-2 px-3 mx-auto w-[32ch] rounded-[.3rem] text-text font-sans font-light text-[1.1rem] focus-within:ring-1 transition-all duration-300 ease-in-out focus-within:ring-accent ${!send ? "opacity-1000" : "opacity-0"}`}>
                   <input value={email} type="email" required placeholder="e-mail" onChange={(e) => setEmail(e.target.value)} className="rounded-sm w-full outline-none autofill:bg-card bg-transparent  text-text font-sans font-light text-[1.1rem] " />
