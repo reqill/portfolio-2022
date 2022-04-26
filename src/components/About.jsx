@@ -46,8 +46,8 @@ export default function About({ lang }) {
             </p>
             <p className="w-full text-text mt-5 text-justify  font-sans font-light text-[1.1rem] leading-[1.6rem]">
               {lang === "en" ?
-                "These days my main focus is developing existing personal projects, and searching for new ways I could imporove my skills." :
-                "W chwili obecnej skupiam się na rozwoju projektów personalnych, oraz szukam nowych możliwości na poszerzenie swoich horyzontów."
+                "These days my main focus is to complete my first NPM package, and searching for new ways I could imporove my skills." :
+                "W chwili obecnej skupiam się na ukończeniu swojej paczki NPM, oraz szukam nowych możliwości na poszerzenie swoich horyzontów."
               }
             </p>
           </div>
