@@ -134,7 +134,7 @@ export default function Work({ lang }) {
                 <a rel="external" href="https://suilo.pl/" target="_blank" title="Website" className="group my-auto">
                   <ExternalLink size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
-                <a rel="external" href="https://github.com/Reqill/suilo-website-v2" target="_blank" title="GitHub" className="group my-auto">
+                <a rel="external" href="https://github.com/Reqill/suilo-website-frontend" target="_blank" title="GitHub" className="group my-auto">
                   <GitHub size={28} className="stroke-text stroke-[1.7] group-hover:stroke-accent group-hover:-translate-y-[.4rem] transition-all ease-in-out" />
                 </a>
 
