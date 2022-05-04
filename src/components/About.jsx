@@ -56,7 +56,7 @@ export default function About({ lang }) {
               <div className="w-fit  h-fit relative -translate-x-3 lg:translate-x-6 lg:-translate-y-8">
                 <div className='inset w-full h-full absolute translate-x-8 translate-y-8 dots-on-repeat ' />
                 <div className='inset w-full h-full absolute  rounded-[.35rem] bg-bg ' />
-                <img alt={lang === "en" ? "photo of me ;)" : "moja fotografia ;o"} src={require("../media/Mask Group 2.png")} className="object-cover aspect-square w-52 lg:w-64 xl:w-72 lg:my-0 mix-blend-luminosity mx-auto rounded-[.35rem]" />
+                <img alt={lang === "en" ? "photo of me ;)" : "moja fotografia ;o"} src={require("../media/mikolajmrozek.jpg")} className="object-cover aspect-square w-52 lg:w-64 xl:w-72 lg:my-0 mix-blend-luminosity mx-auto rounded-[.35rem]" />
               </div>
             </div>
           </Fade>
